@@ -21,7 +21,7 @@ def getMessage():
 def webhook():
     bot.remove_webhook()
     # 2. Thay 'bkx.vercel.app' bằng link dự án Vercel mới của bạn nếu cần
-    bot.set_webhook(url='https://bkx.vercel.app/' + TOKEN)
+    bot.set_webhook(bot.set_webhook(url='https://bkx-pi.vercel.app/' + TOKEN)
     return "Bot đang chạy...", 200
 
 if __name__ == "__main__":
